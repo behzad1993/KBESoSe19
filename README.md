@@ -1,5 +1,4 @@
 # KBESoSe19
-KBE SS 2019
 
 |- runMeRunner (Belegaufgabe 1)
 
