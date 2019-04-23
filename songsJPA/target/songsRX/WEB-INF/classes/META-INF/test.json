@@ -1,0 +1,27 @@
+{
+  "id": 3,
+  "isPublic": true,
+  "song": [
+    {
+      "id": 6,
+      "title": "I Took a Pill in Ibiza",
+      "artist": "Mike Posner",
+      "album": "At Night, Alone.",
+      "released": 2016
+    },
+    {
+      "id": 4,
+      "title": "Ghostbusters (I’m not afraid)",
+      "artist": "Fall Out Boy, Missy Elliott",
+      "album": "Ghostbusters",
+      "released": 2016
+    },
+    {
+      "id": 2,
+      "title": "Mom",
+      "artist": "Meghan Trainor, Kelli Trainor",
+      "album": "Thank You",
+      "released": 2016
+    }
+  ]
+}

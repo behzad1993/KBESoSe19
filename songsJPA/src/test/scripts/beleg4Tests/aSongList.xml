@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<songList>
+    <isPublic>true</isPublic>
+    <songs>
+        <song>
+            <id>2</id>
+        </song>
+        <song>
+            <id>4</id>
+        </song>
+        <song>
+            <id>6</id>
+        </song>
+    </songs>
+</songList>

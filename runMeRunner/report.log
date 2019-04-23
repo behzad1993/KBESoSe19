@@ -1,0 +1,21 @@
+
+Currently reporting about invocation of method: noRmR1 ->  Found no annotation!
+
+Currently reporting about invocation of method: method3 ->  Success!
+
+Currently reporting about invocation of method: method2 ->  Success!
+
+Currently reporting about invocation of method: method1 ->  Success!
+
+Currently reporting about invocation of method: method0 ->  Success!
+
+Currently reporting about invocation of method: noRmR2 ->  Found no annotation!
+
+Currently reporting about invocation of method: method4 ->  Not invokable: IllegalArgumentException
+
+Currently reporting about invocation of method: method4 ->  Not invokable: IllegalAccessException
+
+Currently reporting about invocation of method: noRmR3 ->  Found no annotation!
+
+Currently reporting about invocation of method: toString ->  Success!
+

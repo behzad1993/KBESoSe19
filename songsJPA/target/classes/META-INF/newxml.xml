@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<songLists>
+    <songList>
+        <id>3</id>
+        <isPublic>true</isPublic>
+        <songs>
+            <song>
+                <id>2</id>
+                <title>Mom</title>
+                <artist>Meghan Trainor, Kelli Trainor</artist>
+                <album>Thank You</album>
+                <released>2016</released>
+            </song>
+            <song>
+                <id>4</id>
+                <title>Ghostbusters (I’m not afraid)</title>
+                <artist>Fall Out Boy, Missy Elliott</artist>
+                <album>Ghostbusters</album>
+                <released>2016</released>
+            </song>
+            <song>
+                <id>6</id>
+                <title>I Took a Pill in Ibiza</title>
+                <artist>Mike Posner</artist>
+                <album>At Night, Alone.</album>
+                <released>2016</released>
+            </song>
+        </songs>
+    </songList>
+    <songList>
+        <id>4</id>
+        <isPublic>false</isPublic>
+        <songs>
+            <song>
+                <id>6</id>
+                <title>I Took a Pill in Ibiza</title>
+                <artist>Mike Posner</artist>
+                <album>At Night, Alone.</album>
+                <released>2016</released>
+            </song>
+        </songs>
+    </songList>
+    <songList>
+        <id>13</id>
+        <isPublic>false</isPublic>
+        <songs>
+            <song>
+                <id>5</id>
+                <title>Bad Things</title>
+                <artist>Camila Cabello, Machine Gun Kelly</artist>
+                <album>Bloom</album>
+                <released>2017</released>
+            </song>
+            <song>
+                <id>4</id>
+                <title>Ghostbusters (I’m not afraid)</title>
+                <artist>Fall Out Boy, Missy Elliott</artist>
+                <album>Ghostbusters</album>
+                <released>2016</released>
+            </song>
+        </songs>
+    </songList>
+    <songList>
+        <id>14</id>
+        <isPublic>false</isPublic>
+        <songs>
+            <song>
+                <id>5</id>
+                <title>Bad Things</title>
+                <artist>Camila Cabello, Machine Gun Kelly</artist>
+                <album>Bloom</album>
+                <released>2017</released>
+            </song>
+            <song>
+                <id>4</id>
+                <title>Ghostbusters (I’m not afraid)</title>
+                <artist>Fall Out Boy, Missy Elliott</artist>
+                <album>Ghostbusters</album>
+                <released>2016</released>
+            </song>
+        </songs>
+    </songList>
+    <songList>
+        <id>15</id>
+        <isPublic>false</isPublic>
+        <songs>
+            <song>
+                <id>5</id>
+                <title>Bad Things</title>
+                <artist>Camila Cabello, Machine Gun Kelly</artist>
+                <album>Bloom</album>
+                <released>2017</released>
+            </song>
+            <song>
+                <id>4</id>
+                <title>Ghostbusters (I’m not afraid)</title>
+                <artist>Fall Out Boy, Missy Elliott</artist>
+                <album>Ghostbusters</album>
+                <released>2016</released>
+            </song>
+        </songs>
+    </songList>
+    <songList>
+        <id>16</id>
+        <isPublic>false</isPublic>
+        <songs>
+            <song>
+                <id>5</id>
+                <title>Bad Things</title>
+                <artist>Camila Cabello, Machine Gun Kelly</artist>
+                <album>Bloom</album>
+                <released>2017</released>
+            </song>
+            <song>
+                <id>4</id>
+                <title>Ghostbusters (I’m not afraid)</title>
+                <artist>Fall Out Boy, Missy Elliott</artist>
+                <album>Ghostbusters</album>
+                <released>2016</released>
+            </song>
+        </songs>
+    </songList>
+    <songList>
+        <id>17</id>
+        <isPublic>false</isPublic>
+        <songs>
+            <song>
+                <id>5</id>
+                <title>Bad Things</title>
+                <artist>Camila Cabello, Machine Gun Kelly</artist>
+                <album>Bloom</album>
+                <released>2017</released>
+            </song>
+            <song>
+                <id>4</id>
+                <title>Ghostbusters (I’m not afraid)</title>
+                <artist>Fall Out Boy, Missy Elliott</artist>
+                <album>Ghostbusters</album>
+                <released>2016</released>
+            </song>
+        </songs>
+    </songList>
+</songLists>
