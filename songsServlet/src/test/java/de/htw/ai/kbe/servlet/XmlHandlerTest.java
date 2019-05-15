@@ -27,6 +27,13 @@ public class XmlHandlerTest {
         XmlHandler.writeSongsToXML(songs.getSongList(), filename);
     }
 
+    @Test
+    public void test_readXMLToSongs_succesReadingEmptySongsXML() throws IOException, JAXBException {
+        String filename = "extern/emptysongs.xml";
+        List<Song> songs = XmlHandler.readXMLToSongs(filename);
+        assertTrue(songs.size() == 0);
+    }
+
     private Song createRandomSong() {
         Song song = new Song();
         song.setId(1);
