@@ -8,81 +8,81 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 
-
-/**
- * Song POJO
- */
-@JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonPropertyOrder({
-        "id",
-        "title",
-        "artist",
-        "album",
-        "released"
-})
+//
+///**
+// * Song POJO
+// */
+//@JsonInclude(JsonInclude.Include.NON_NULL)
+//@JsonPropertyOrder({
+//        "id",
+//        "title",
+//        "artist",
+//        "album",
+//        "released"
+//})
 
 @XmlRootElement(name = "song")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Song {
 
-    @JsonProperty("id")
+//    @JsonProperty("id")
     private Integer id;
-    @JsonProperty("title")
+//    @JsonProperty("title")
     private String title;
-    @JsonProperty("artist")
+//    @JsonProperty("artist")
     private String artist;
-    @JsonProperty("album")
+//    @JsonProperty("album")
     private String album;
-    @JsonProperty("released")
+//    @JsonProperty("released")
     private Integer released;
 
 
-    @JsonProperty("id")
+//    @JsonProperty("id")
     public Integer getId() {
         return id;
     }
 
-    @JsonProperty("id")
+//    @JsonProperty("id")
     public void setId(Integer id) {
         this.id = id;
     }
 
-    @JsonProperty("title")
+//    @JsonProperty("title")
     public String getTitle() {
         return title;
     }
 
-    @JsonProperty("title")
+//    @JsonProperty("title")
     public void setTitle(String title) {
         this.title = title;
     }
 
-    @JsonProperty("artist")
+//    @JsonProperty("artist")
     public String getArtist() {
         return artist;
     }
 
-    @JsonProperty("artist")
+//    @JsonProperty("artist")
     public void setArtist(String artist) {
         this.artist = artist;
     }
 
-    @JsonProperty("album")
+//    @JsonProperty("album")
     public String getAlbum() {
         return album;
     }
 
-    @JsonProperty("album")
+//    @JsonProperty("album")
     public void setAlbum(String album) {
         this.album = album;
     }
 
-    @JsonProperty("released")
+//    @JsonProperty("released")
     public Integer getReleased() {
         return released;
     }
 
-    @JsonProperty("released")
+//    @JsonProperty("released")
     public void setReleased(Integer released) {
         this.released = released;
     }

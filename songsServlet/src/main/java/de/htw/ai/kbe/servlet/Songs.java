@@ -1,14 +1,14 @@
 package de.htw.ai.kbe.servlet;
 
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @XmlRootElement(name = "songs")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Songs {
 
-    @XmlElementWrapper(name = "song")
+    @XmlElement(name = "song")
     private List<Song> songList = new ArrayList<>();
 
     public Songs() {
@@ -24,14 +24,5 @@ public class Songs {
 
     public void addSongToList(Song song) {
         songList.add(song);
-    }
-
-    public Song getSongFromListById(Integer id) {
-        for (Song song : songList) {
-            if (song.getId() == id) {
-                return song;
-            }
-        }
-        return null;
     }
 }
