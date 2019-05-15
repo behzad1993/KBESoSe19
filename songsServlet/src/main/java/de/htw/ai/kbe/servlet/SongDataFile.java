@@ -49,7 +49,8 @@ public class SongDataFile {
     public synchronized void saveToFile() throws IOException {
         LOGGER.log(INFO, "Save json songs data to file: {0}", filePath);
         OutputStream os = new BufferedOutputStream(new FileOutputStream(filePath));
-        JsonHandler.writeSongsToJSON(getAllSongs(), os);
+//        JsonHandler.writeSongsToJSON(getAllSongs(), os);
+        XmlHandler.writeSongsToXML(getAllSongs(), "songs.xml");
     }
 
     /**
