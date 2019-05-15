@@ -1,5 +1,6 @@
 package de.htw.ai.kbe.servlet;
 
+import javax.xml.bind.JAXBException;
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -33,9 +34,10 @@ public class SongDataFile {
      *
      * @throws IOException if JSON Songs data couldn't be properly loaded from file
      */
-    public synchronized void load() throws IOException {
+    public synchronized void load() throws IOException, JAXBException {
         LOGGER.log(INFO, "Load json songs data from file: {0}", filePath);
-        List<Song> songList = JsonHandler.readJSONToSongs(filePath);
+//        List<Song> songList = JsonHandler.readJSONToSongs(filePath);
+        List<Song> songList = XmlHandler.readXMLToSongs(filePath);
         // https://www.mkyong.com/java8/java-8-convert-list-to-map/ Chapter: "List to Map – Collectors.toMap()"
         songs = songList.stream().collect(Collectors.toMap(Song::getId, song -> song));
         counterOfIds = songs.size() + 1;
@@ -50,7 +52,7 @@ public class SongDataFile {
         LOGGER.log(INFO, "Save json songs data to file: {0}", filePath);
         OutputStream os = new BufferedOutputStream(new FileOutputStream(filePath));
 //        JsonHandler.writeSongsToJSON(getAllSongs(), os);
-        XmlHandler.writeSongsToXML(getAllSongs(), "songs.xml");
+        XmlHandler.writeSongsToXML(getAllSongs(), filePath);
     }
 
     /**

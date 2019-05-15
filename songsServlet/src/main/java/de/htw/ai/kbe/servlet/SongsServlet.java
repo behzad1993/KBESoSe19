@@ -6,6 +6,7 @@ import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.bind.JAXBException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Enumeration;
@@ -36,6 +37,8 @@ public class SongsServlet extends HttpServlet {
             songDataFile.load();
         } catch (IOException e) {
             LOGGER.log(SEVERE, "Can not load json songs data from file: {0}", uriToFakeDB);
+        } catch (JAXBException e) {
+            e.printStackTrace();
         }
     }
 
