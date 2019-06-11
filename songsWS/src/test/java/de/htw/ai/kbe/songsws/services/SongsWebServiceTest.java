@@ -9,6 +9,7 @@ import de.htw.ai.kbe.songsws.storage.InMemoryUserStorage;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
+import org.glassfish.jersey.test.TestProperties;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,6 +24,7 @@ public class SongsWebServiceTest extends JerseyTest {
 
     @Override
     protected Application configure() {
+        forceSet(TestProperties.CONTAINER_PORT, "0");
         ResourceConfig config = new ResourceConfig(SongsWebService.class, AuthWebService.class);
         config.register(
                 new AbstractBinder() {
@@ -33,6 +35,7 @@ public class SongsWebServiceTest extends JerseyTest {
                     }
                 });
         config.register(new AuthenticationFilter());
+
         return config;
     }
 
@@ -260,6 +263,16 @@ public class SongsWebServiceTest extends JerseyTest {
         // Then
         Assert.assertEquals(400, response.getStatus());
         Assert.assertNotEquals(DIFFERENT_ARTIST, getSongByIdHelper(10).getArtist());
+    }
+
+    @Test
+    public void deleteSongHappyCase () {
+        Integer deleteId = 3;
+
+        Response response = target ("/songs/")
+                .request()
+                .header(HttpHeaders.AUTHORIZATION, validToken)
+                .delete();
     }
 
     private Song getSongByIdHelper(Integer id) {
