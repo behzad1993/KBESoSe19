@@ -45,4 +45,13 @@ public interface ISongStorage {
      * @return if existing
      */
     boolean songExistsInSongStorage(int id);
+
+
+    /**
+     * Removes a Song by Id
+     *
+     * @param id of the song to delete
+     * @return the deleted Song
+     */
+    Boolean deleteSong(Integer id);
 }

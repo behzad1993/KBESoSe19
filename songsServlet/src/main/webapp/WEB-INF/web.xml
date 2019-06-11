@@ -9,9 +9,9 @@
         <init-param>
             <param-name>uriToFakeDBComponent</param-name>
 <!-- MAC OS needs to use the whole path, like below, or maybe its just my computer-->
-<!--            <param-value>/Users/behzadkarimi/Documents/HTW/Komponentenbasierte_Entwicklung/KBESoSe19/songsServlet/extern/songs.xml</param-value>-->
+            <param-value>/Users/behzadkarimi/Documents/HTW/Komponentenbasierte_Entwicklung/KBESoSe19/songsServlet/extern/songs.xml</param-value>
 <!-- All other OS can use the relative path-->
-            <param-value>extern/songs.json</param-value>
+<!--            <param-value>extern/songs.xml</param-value>-->
         </init-param>
     </servlet>
     <servlet-mapping>

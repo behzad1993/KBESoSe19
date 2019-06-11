@@ -2,7 +2,9 @@ package de.htw.ai.kbe.songsrx.storage;
 
 import de.htw.ai.kbe.songsrx.bean.Song;
 import de.htw.ai.kbe.songsrx.utils.JsonHandler;
+import de.htw.ai.kbe.songsrx.utils.XmlHandler;
 
+import javax.xml.bind.JAXBException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +32,8 @@ public class InMemorySongStorage implements ISongStorage {
         this.filePath = filePath;
         try {
             load();
-        } catch (IOException e) {
+        } catch (Exception e) {
+            e.printStackTrace();
             LOGGER.log(SEVERE, "Could not load data properly from: {0}", filePath);
         }
     }
@@ -40,9 +43,9 @@ public class InMemorySongStorage implements ISongStorage {
      *
      * @throws IOException if JSON Songs data couldn't be properly loaded from file
      */
-    private void load() throws IOException {
+    private void load() throws IOException, JAXBException {
         LOGGER.log(INFO, "Load json songs data from file: {0}", filePath);
-        List<Song> songList = JsonHandler.readJSONToSongs(filePath);
+        List<Song> songList = XmlHandler.readXMLToSongs(filePath);
 
         // https://www.mkyong.com/java8/java-8-convert-list-to-map/ Chapter: "List to Map – Collectors.toMap()"
         songs = songList.stream().collect(Collectors.toMap(Song::getId, song -> song));

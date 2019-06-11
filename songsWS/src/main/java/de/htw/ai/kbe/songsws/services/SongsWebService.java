@@ -7,13 +7,7 @@ import de.htw.ai.kbe.songsws.storage.ISongStorage;
 
 import javax.inject.Inject;
 import javax.persistence.PersistenceException;
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.PUT;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -92,6 +86,19 @@ public class SongsWebService {
             return Response.status(Response.Status.BAD_REQUEST)
                     .entity("Not updated. (Hint: songs already used in songlists can't be updated)")
                     .build();
+        }
+    }
+
+    @DELETE
+    @Authenticated
+    @Path("/{id}")
+    public Response deleteSong(@PathParam("id") Integer id) {
+        Boolean isDeleted = songStorage.deleteSong(id);
+        if (isDeleted) {
+            LOGGER.log(INFO, "Removed song with id: {0}", id);
+            return Response.noContent().build();
+        } else {
+            return Response.status(Response.Status.NOT_FOUND).entity("No song found with id " + id).build();
         }
     }
 

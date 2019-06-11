@@ -85,4 +85,9 @@ public class InMemorySongStorage implements ISongStorage {
     public boolean songExistsInSongStorage(int id) {
         return getSingleSong(id) != null;
     }
+
+    @Override
+    public Boolean deleteSong(Integer id) {
+        return null;
+    }
 }

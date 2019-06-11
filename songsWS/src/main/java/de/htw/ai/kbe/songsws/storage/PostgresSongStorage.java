@@ -117,7 +117,7 @@ public class PostgresSongStorage implements ISongStorage {
         return getAllSongs().size();
     }
 
-    private boolean deleteSong(Integer id) {
+    public Boolean deleteSong(Integer id) {
         EntityManager em = factory.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
         Song song;

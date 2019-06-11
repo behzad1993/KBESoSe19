@@ -88,6 +88,12 @@ Put song (i.e. change song with id 7):
 
 ```echo '{"album": "Thank You", "artist": "David Hasselhof", "id": 7, "released": 2016, "title": "No"}' | http PUT http://localhost:8080/songsWS/rest/songs/7 Authorization:token```
 
+Delete Song
+
+```http DELETE http://localhost:8080/songsRX/rest/songs/9 Authorization:token```
+
+
+
 #### SongLists
 
 A) Get song lists for mmuster:
