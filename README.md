@@ -4,7 +4,7 @@
 
 |- SongsServlet (Belegaufgabe 2)
 
-|- SongsWS (Belegaufgabe 3)
+|- SongsWS (Belegaufgabe 3) im eigenen Branch Namens songsWS
 
 ALT
 |- SongsRX - A RESTful Web Service with Jersey (JAX-RS) mit „songs“- und „auth“-Endpoints (Belegaufgabe 3)
