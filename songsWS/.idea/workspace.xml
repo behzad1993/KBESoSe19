@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a257e2d8-d3b9-4d89-9ee4-1b28af53a256" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/htw/ai/kbe/songsws/services/SongsWebServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/htw/ai/kbe/songsws/services/SongsWebServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -23,8 +24,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2220">
-                  <caret line="280" column="57" selection-start-line="280" selection-start-column="57" selection-end-line="280" selection-end-column="57" />
+                <state relative-caret-position="2385">
+                  <caret line="291" column="57" selection-start-line="291" selection-start-column="57" selection-end-line="291" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -42,11 +43,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/de/htw/ai/kbe/songsws/services/SongsWebServiceTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="442">
+                  <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
                 </state>
               </provider>
             </entry>
@@ -82,17 +80,39 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/services/SongsWebService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+                <state relative-caret-position="441">
+                  <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/InMemorySongStorage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="89" column="18" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#2936#2937#0" expanded="true" />
+                    <element signature="e#2963#2964#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/ISongStorage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="411">
+                  <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/ISongListStorage.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
                   <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
@@ -101,24 +121,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/ISongListStorage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/PostgresSongListStorage.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/IUserStorage.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-165">
-                  <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#24#1" expanded="true" />
-                    <element signature="e#0#55#1" expanded="true" />
-                    <element signature="e#0#75#1" expanded="true" />
-                  </folding>
+                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -126,8 +132,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/PostgresSongStorage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="695">
-                  <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+                <state relative-caret-position="426">
+                  <caret line="135" column="64" lean-forward="true" selection-start-line="135" selection-start-column="64" selection-end-line="135" selection-end-column="64" />
                   <folding>
                     <element signature="e#0#20#1" expanded="true" />
                   </folding>
@@ -141,11 +147,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>delete</find>
       <find>getSong</find>
       <find>protected</find>
       <find>port</find>
       <find>local</find>
+      <find>changedSong</find>
+      <find>package</find>
+      <find>delete</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,6 +162,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/InMemorySongStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/ISongStorage.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/htw/ai/kbe/songsws/services/SongsWebServiceTest.java" />
       </list>
     </option>
@@ -224,10 +234,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+    <option name="x" value="2454" />
+    <option name="y" value="157" />
+    <option name="width" value="1371" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -327,6 +337,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -345,7 +356,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SongsWebServiceTest">
+  <component name="RunManager" selected="JUnit.SongsWebServiceTest.deleteSongHappyCase">
     <configuration name="AuthWebServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="songsWS" />
       <extension name="coverage">
@@ -376,6 +387,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SongsWebServiceTest.deleteSongHappyCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="songsWS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.htw.ai.kbe.songsws.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.htw.ai.kbe.songsws.services" />
+      <option name="MAIN_CLASS_NAME" value="de.htw.ai.kbe.songsws.services.SongsWebServiceTest" />
+      <option name="METHOD_NAME" value="deleteSongHappyCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SongsWebServiceTest.updateSongEmptyTitle400" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="songsWS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.htw.ai.kbe.songsws.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.htw.ai.kbe.songsws.services" />
+      <option name="MAIN_CLASS_NAME" value="de.htw.ai.kbe.songsws.services.SongsWebServiceTest" />
+      <option name="METHOD_NAME" value="updateSongEmptyTitle400" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SongsWebServiceTest.updateSongNoValidToken401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="songsWS" />
       <extension name="coverage">
@@ -394,6 +437,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SongsWebServiceTest.deleteSongHappyCase" />
+        <item itemvalue="JUnit.SongsWebServiceTest.updateSongEmptyTitle400" />
         <item itemvalue="JUnit.SongsWebServiceTest" />
         <item itemvalue="JUnit.SongsWebServiceTest.updateSongNoValidToken401" />
         <item itemvalue="JUnit.AuthWebServiceTest" />
@@ -425,20 +470,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560256451330</updated>
-      <workItem from="1560256455780" duration="7808000" />
+      <workItem from="1560256455780" duration="12380000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthWebServiceTest - 2019.06.11 at 14h 42m 49s.xml">
-      <configuration name="AuthWebServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SongsWebServiceTest - 2019.06.11 at 14h 43m 26s.xml">
-      <configuration name="SongsWebServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SongsWebServiceTest - 2019.06.11 at 18h 12m 58s.xml">
-      <configuration name="SongsWebServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SongsWebServiceTest_updateSongNoValidToken401 - 2019.06.11 at 18h 14m 31s.xml">
       <configuration name="SongsWebServiceTest.updateSongNoValidToken401" configurationId="JUnit" />
     </history-entry>
@@ -451,9 +487,27 @@
     <history-entry file="SongsWebServiceTest - 2019.06.11 at 18h 33m 31s.xml">
       <configuration name="SongsWebServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SongsWebServiceTest_deleteSongHappyCase - 2019.06.11 at 19h 16m 31s.xml">
+      <configuration name="SongsWebServiceTest.deleteSongHappyCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongsWebServiceTest_deleteSongHappyCase - 2019.06.11 at 19h 22m 37s.xml">
+      <configuration name="SongsWebServiceTest.deleteSongHappyCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongsWebServiceTest_deleteSongHappyCase - 2019.06.11 at 19h 31m 07s.xml">
+      <configuration name="SongsWebServiceTest.deleteSongHappyCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongsWebServiceTest_deleteSongHappyCase - 2019.06.12 at 19h 40m 17s.xml">
+      <configuration name="SongsWebServiceTest.deleteSongHappyCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongsWebServiceTest_updateSongEmptyTitle400 - 2019.06.12 at 19h 43m 21s.xml">
+      <configuration name="SongsWebServiceTest.updateSongEmptyTitle400" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SongsWebServiceTest_deleteSongHappyCase - 2019.06.12 at 19h 43m 34s.xml">
+      <configuration name="SongsWebServiceTest.deleteSongHappyCase" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7808000" />
+    <option name="totallyTimeSpent" value="12380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
@@ -465,7 +519,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.024349751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21527393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="SBT Console" />
       <window_info anchor="bottom" id="Terminal" />
@@ -547,8 +601,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="280" column="57" selection-start-line="280" selection-start-column="57" selection-end-line="280" selection-end-column="57" />
+        <state relative-caret-position="2385">
+          <caret line="291" column="57" selection-start-line="291" selection-start-column="57" selection-end-line="291" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -572,10 +626,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/ISongStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/services/SongsWebService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="749">
+          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/PostgresSongStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="135" column="64" lean-forward="true" selection-start-line="135" selection-start-column="64" selection-end-line="135" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#20#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,37 +655,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/PostgresSongStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/IUserStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#20#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="-165">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/ISongListStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/services/SongsWebService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/InMemorySongStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        <state relative-caret-position="420">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="18" />
+          <folding>
+            <element signature="e#2936#2937#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/htw/ai/kbe/songsws/storage/ISongStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/htw/ai/kbe/songsws/services/SongsWebServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
         </state>
       </provider>
     </entry>

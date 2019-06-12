@@ -267,12 +267,20 @@ public class SongsWebServiceTest extends JerseyTest {
 
     @Test
     public void deleteSongHappyCase () {
-        Integer deleteId = 3;
+        Song changedSong = getSongByIdHelper(10);
+        changedSong.setArtist(DIFFERENT_ARTIST);
+        changedSong.setTitle("");
 
-        Response response = target ("/songs/")
+        Response response = target("/songs/")
+                .path(Long.toString(changedSong.getId()))
                 .request()
                 .header(HttpHeaders.AUTHORIZATION, validToken)
                 .delete();
+
+        Assert.assertEquals(204, response.getStatus());
+        Assert.assertEquals(null, getSongByIdHelper(10) );
+
+
     }
 
     private Song getSongByIdHelper(Integer id) {
