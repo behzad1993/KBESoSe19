@@ -17,7 +17,7 @@ curl -X POST \
      -H "Content-Type: application/xml" \
      -H "Accept: text/plain" \
      -d "@aSongList.xml" \
-     -v "http://localhost:8080/songsRX/rest/songLists"
+     -v "http://localhost:8080/songsWS/rest/songLists"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 
@@ -27,7 +27,7 @@ curl -X POST \
      -H "Content-Type: application/json" \
      -H "Accept: text/plain" \
      -d "@aSongList.json" \
-     -v "http://localhost:8080/songsRX/rest/songLists"
+     -v "http://localhost:8080/songsWS/rest/songLists"
 echo " "
 
 echo "--- POSTING A XML SONGLIST WITH NON-EXISTING SONG  ------------------"
@@ -36,7 +36,7 @@ curl -X POST \
      -H "Content-Type: application/json" \
      -H "Accept: text/plain" \
      -d "@aSongListBad.json" \
-     -v "http://localhost:8080/songsRX/rest/songLists"
+     -v "http://localhost:8080/songsWS/rest/songLists"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 

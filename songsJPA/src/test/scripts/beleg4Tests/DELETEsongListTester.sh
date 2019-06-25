@@ -17,7 +17,7 @@ fi
 echo "--- DELETING SONGLIST WITHOUT TOKEN SHOULD RETURN 401--------"
 curl -X DELETE \
      -H "Accept: text/plain" \
-     -v "http://localhost:8080/songsRX/rest/songLists/$2"
+     -v "http://localhost:8080/songsWS/rest/songLists/$2"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 
@@ -25,7 +25,7 @@ echo "--- DELETING SONGLIST WITH TOKEN--------"
 curl -X DELETE \
      -H "Authorization: $1" \
      -H "Accept: text/plain" \
-     -v "http://localhost:8080/songsRX/rest/songLists/$2"
+     -v "http://localhost:8080/songsWS/rest/songLists/$2"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 
@@ -33,7 +33,7 @@ echo "--- REQUESTING DELETED SONGLIST SHOULD RETURN 404 --------"
 curl -X GET \
      -H "Authorization: $1" \
      -H "Accept: application/json" \
-     -v "http://localhost:8080/songsRX/rest/songLists/$2"
+     -v "http://localhost:8080/songsWS/rest/songLists/$2"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 

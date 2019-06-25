@@ -17,7 +17,7 @@ echo "--- DELETING SONG $2 WITH TOKEN--------"
 curl -X DELETE \
      -H "Authorization: $1" \
      -H "Accept: text/plain" \
-     -v "http://localhost:8080/songsRX/rest/songs/$2"
+     -v "http://localhost:8080/songsWS/rest/songs/$2"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 

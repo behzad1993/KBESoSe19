@@ -15,7 +15,7 @@ fi
 
 echo "--- REQUESTING A TOKEN ------------"
 curl -X GET \
-     -v "http://localhost:8080/songsRX/rest/auth?userId=$1"
+     -v "http://localhost:8080/songsWS/rest/auth?userId=$1"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 

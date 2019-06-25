@@ -15,7 +15,7 @@ fi
 echo "--- TESTING songLists-endpoint WITHOUT TOKEN SHOULD RETURN 401: ------------"
 curl -X GET \
      -H "Accept: application/xml" \
-     -v "http://localhost:8080/songsRX/rest/songLists"
+     -v "http://localhost:8080/songsWS/rest/songLists"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 
@@ -24,7 +24,7 @@ echo "--- REQUESTING ALL XML SONGLISTs for $2: ------------"
 curl -X GET \
      -H "Authorization: $1" \
      -H "Accept: application/xml" \
-     -v "http://localhost:8080/songsRX/rest/songLists?userId=$2"
+     -v "http://localhost:8080/songsWS/rest/songLists?userId=$2"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 
@@ -32,6 +32,6 @@ echo "--- REQUESTING ALL JSON SONGLISTs for $2: ------------"
 curl -X GET \
      -H "Authorization: $1" \
      -H "Accept: application/json" \
-     -v "http://localhost:8080/songsRX/rest/songLists?userId=$2"
+     -v "http://localhost:8080/songsWS/rest/songLists?userId=$2"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"

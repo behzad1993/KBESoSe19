@@ -17,7 +17,7 @@ echo "--- REQUESTING JSON-SONGLIST $3 WITH TOKEN: ------------"
 curl -X GET \
      -H "Authorization: $1" \
      -H "Accept: application/json" \
-     -v "http://localhost:8080/songsRX/rest/songLists/$2"
+     -v "http://localhost:8080/songsWS/rest/songLists/$2"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
 
@@ -25,6 +25,6 @@ echo "--- REQUESTING XML-SONGLIST $3 WITH TOKEN: ------------"
 curl -X GET \
      -H "Authorization: $1" \
      -H "Accept: application/xml" \
-     -v "http://localhost:8080/songsRX/rest/songLists/$2"
+     -v "http://localhost:8080/songsWS/rest/songLists/$2"
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
