@@ -9,4 +9,4 @@
 ALT
 |- SongsRX - A RESTful Web Service with Jersey (JAX-RS) mit „songs“- und „auth“-Endpoints (Belegaufgabe 3)
 
-|- SongsJPA (Hibernate) - songsRX mit Datenbankanbindung und mit neuem Endpoint songLists (Belegaufgabe 4)
+|- SongsJPA (Hibernate) - songsWS mit Datenbankanbindung und mit neuem Endpoint songLists (Belegaufgabe 4)
