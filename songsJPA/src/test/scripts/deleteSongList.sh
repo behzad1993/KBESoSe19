@@ -9,7 +9,7 @@ echo " "
 echo " "
 echo "--- Try to delete public SONG LIST of other user (3 belongs to mmuster) -> SHOULD FAIL WITH 403 ------------------"
 
-curl --request DELETE http://localhost:8080/songsRX/rest/songLists/3 -H Authorization:$token
+curl --request DELETE http://localhost:8080/songsWS/rest/songLists/3 -H Authorization:$token
 
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
@@ -17,7 +17,7 @@ echo "--------------------------------------------------------------------------
 echo " "
 echo "--- Try to delete private SONG LIST of other user (4 belongs to mmuster) -> SHOULD FAIL WITH 403 ------------------"
 
-curl --request DELETE http://localhost:8080/songsRX/rest/songLists/4 -H Authorization:$token
+curl --request DELETE http://localhost:8080/songsWS/rest/songLists/4 -H Authorization:$token
 
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
@@ -25,7 +25,7 @@ echo "--------------------------------------------------------------------------
 echo " "
 echo "--- Try to delete not existing SONG LIST -> SHOULD FAIL WITH 404 ------------------"
 
-curl --request DELETE http://localhost:8080/songsRX/rest/songLists/666 -H Authorization:$token
+curl --request DELETE http://localhost:8080/songsWS/rest/songLists/666 -H Authorization:$token
 
 echo " "
 echo "-------------------------------------------------------------------------------------------------"
