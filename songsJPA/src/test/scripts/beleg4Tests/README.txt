@@ -1,12 +1,12 @@
 Vorbereitung: 
 
-Ihre songsRX-Software aus dem git runterladen und installieren
+Ihre songsWS-Software aus dem git runterladen und installieren
 
-cp -r  beleg4Tests/ songsRX/
+cp -r  beleg4Tests/ songsWS/
 
 Ihre SongLists-Payloads ins Verzeichnis "beleg4Tests/" kopieren und dort meine SongLists-Payloads überschreiben:
 
-cd songsRX/beleg4Tests
+cd songsWS/beleg4Tests
 
 cp YOUR_SongList.json aSongList.json
 
@@ -17,7 +17,7 @@ cp YOUR_BadSongList.json aSongListBad.json
 
 Fuer die Praesentation... same procedure as usual:
 
-cd songsRX
+cd songsWS
 
 git log | less
 
@@ -25,7 +25,7 @@ git status
 
 mvn clean package
 
-deploy songsRX.war in Tomcat
+deploy songsWS.war in Tomcat
 
 cd beleg4Tests
 

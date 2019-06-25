@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cd11e85-9d0d-4257-bdf0-5a87b5754b2e" name="Default Changelist" comment="added @XmlAccessorType, xmlWrapper, xmlElement and xmlTransient">
-      <change beforePath="$PROJECT_DIR$/src/test/scripts/deleteSongList.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scripts/deleteSongList.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scripts/getAllSongListsOfUser.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scripts/getAllSongListsOfUser.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scripts/getOneSongListById.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scripts/getOneSongListById.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scripts/postBadSongListByJson.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scripts/postBadSongListByJson.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scripts/postOneSongList.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scripts/postOneSongList.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scripts/postOneSongListByJson.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scripts/postOneSongListByJson.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scripts/postOneSongListByXml.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scripts/postOneSongListByXml.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scripts/beleg4Tests/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scripts/beleg4Tests/README.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scripts/beleg4Tests/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -214,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/test/scripts/postOneSongList.sh" />
         <option value="$PROJECT_DIR$/src/test/scripts/postOneSongListByJson.sh" />
         <option value="$PROJECT_DIR$/src/test/scripts/postOneSongListByXml.sh" />
+        <option value="$PROJECT_DIR$/src/test/scripts/beleg4Tests/README.txt" />
       </list>
     </option>
   </component>
@@ -501,7 +496,7 @@
       <workItem from="1549927067611" duration="7500000" />
       <workItem from="1550065937741" duration="702000" />
       <workItem from="1550080229916" duration="69000" />
-      <workItem from="1561452713804" duration="902000" />
+      <workItem from="1561452713804" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Problem of a GET request with a XML file.&#10;new Pojo for GET XML. &#10;changed POST .xml file&#10;added in script a GET XML argument&#10;added in Pom new dependency, xstream">
       <created>1547662075178</created>
@@ -563,7 +558,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29760000" />
+    <option name="totallyTimeSpent" value="30106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
@@ -956,8 +951,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scripts/beleg4Tests/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
